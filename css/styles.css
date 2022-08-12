@@ -66,6 +66,7 @@ color: var(--blue-bg-color);
 .button-service{
     background-color: var(--blue-bg-color);
     color: var(--white-colortext);
+    font-family: inherit;
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
@@ -74,6 +75,18 @@ color: var(--blue-bg-color);
     border-radius: 4px;
 }
 /* section-advantage */
+.visually-hidden{
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+    }
 .adv-title{
     font-weight: 700;
         font-size: 14px;
@@ -108,6 +121,7 @@ color: var(--blue-bg-color);
 }
 /* portfoliomain */
 .button{background-color:var(--white-bg-color);
+    font-family: inherit;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -143,6 +157,9 @@ background-color: var(--dark-bg-color);
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em
+}
+.menu-address{
+    font-style: normal;
 }
 .address-contact{
     color: var(--white-colortext);
