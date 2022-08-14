@@ -42,7 +42,7 @@ ul {
   color: var(--dark-colortext);
 }
 
-.navitem {
+.nav-item {
   color: var(--dark-colortext);
   font-weight: 500;
   font-size: 14px;
@@ -51,8 +51,8 @@ ul {
   text-decoration: none;
 }
 
-.navitem:hover,
-.navitem:focus {
+.nav-item:hover,
+.nav-item:focus {
   color: var(--blue-bg-color);
 }
 
