@@ -42,7 +42,7 @@ ul {
   color: var(--dark-colortext);
 }
 
-.nav-item {
+.navitem {
   color: var(--dark-colortext);
   font-weight: 500;
   font-size: 14px;
@@ -51,15 +51,14 @@ ul {
   text-decoration: none;
 }
 
-.nav-item:hover,
-.nav-item:focus {
+.navitem:hover,
+.navitem:focus {
   color: var(--blue-bg-color);
 }
 
 .contact-link {
   color: var(--grey-colortext);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
   cursor: pointer;
@@ -115,9 +114,7 @@ ul {
 
 .adv-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -125,7 +122,6 @@ ul {
   color: var(--grey-colortext);
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 /* whatwedoing */
@@ -133,10 +129,12 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
-  letter-spacing: 0.03em;
 }
 
 /* ourteam */
+.team {
+  background-color: var(--white-bg-color);
+}
 .name {
   font-weight: 500;
   font-size: 16px;
@@ -199,8 +197,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-
-.menu-address {
+address {
   font-style: normal;
 }
 
